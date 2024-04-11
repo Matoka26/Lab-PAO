@@ -1,0 +1,9 @@
+package maker.exc;
+
+import java.io.IOException;
+
+public class TestTransformable{
+    public static void main(String[] args) throws IOException{
+
+    }
+}

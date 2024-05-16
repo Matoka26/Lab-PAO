@@ -12,13 +12,13 @@ public class SynchronizedCounter implements Runnable{
 
     public synchronized void increment() {
         count++;
-        System.out.println(count);
+        System.out.println(count + "- " + Thread.currentThread().getName());
     }
 
-    /*public void increment() {
-        count++;
-        System.out.println(count);
-    }*/
+//    /*public void increment() {
+//        count++;
+//        System.out.println(count);
+//    }*/
 
 }
 
